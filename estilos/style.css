@@ -79,6 +79,16 @@ div#botao {
     border-radius: 10px;
     margin: auto;
     margin-bottom: 30px;
+    
+}
+
+div#botao a{
+    color: white;
+    text-decoration: none;
+}
+
+div#botao a:hover{
+    text-decoration: underline;
 }
 
 #sobremim > h1,
@@ -112,27 +122,5 @@ iframe {
     margin: auto;
 }
 
-/* 🔄 MEDIA QUERY para telas menores (celulares) */
-@media (max-width: 600px) {
-    #nome > h1 {
-        font-size: 2em;
-    }
 
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
-    .nav-links {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .logo {
-        margin-bottom: 10px;
-    }
-
-    div#botao {
-        width: 80%;
-    }
-}
