@@ -35,20 +35,22 @@
         
         article{
             min-width: 300px;
-            max-width: 800px;
+            max-width: 1000px;
             margin: auto;
         }
         section {
-            text-align: center, justify;
-            font-size: 3vh;
+            text-align: justify;
+            font-size: 2vh;
             padding-left: 30px;
+            padding-right: 30px;
             padding-top: 10vh;
             padding-bottom: 10vh;
-            line-height: 2em;
+            line-height: 1.8em;
             
         }
         section > p{
-            padding-bottom: 2em;
+            padding-bottom: 0.1em;
+            text-indent: 30px;
         }
 
         section.normal{
@@ -59,16 +61,15 @@
         section.image{
             background-color: lightblue;
             box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
-            height: 230px;
-            
-            
-            
+            min-height: 100px;  
             
         }
+
+        
         section#img01{
             background: black url(../imagens/empresa.jpeg) no-repeat;
-            background-size: contain;
+            background-size: cover;
             background-attachment: scroll;
-            background-position: 100%;
+            background-position: top center;
            
         }
